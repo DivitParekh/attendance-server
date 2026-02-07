@@ -1,2 +1,2 @@
- node_modules
-.en
+node_modules/
+.env
