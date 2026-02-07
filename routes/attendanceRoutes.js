@@ -1,6 +1,11 @@
 const express = require("express");
 const router = express.Router();
 
+// DEBUG: confirm routes file is loaded
+router.get("/test", (req, res) => {
+  res.send("Attendance routes working");
+});
+
 const {
   checkIn,
   checkOut,
